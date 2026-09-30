@@ -1,0 +1,18 @@
+table,rule_violated,row_count,severity
+fact_sales,Revenue Before Discount calculation error,0,ERROR
+fact_sales,Revenue After Discount calculation error,0,ERROR
+fact_sales,Cost Amount calculation error,0,ERROR
+fact_sales,Profit calculation error,0,ERROR
+fact_sales,Margin calculation error,0,ERROR
+fact_sales,Invalid product_id,0,ERROR
+fact_sales,Invalid product_id,0,ERROR
+fact_sales,Invalid employee_id,0,ERROR
+fact_sales,Invalid customer_id,0,ERROR
+fact_sales,Negative quantity,0,ERROR
+fact_sales,Negative unit price,0,ERROR
+fact_sales,Missing / invalid sale date,0,ERROR
+fact_sales,Negative discount,0,ERROR
+fact_sales,Discount above 50% policy ceiling,0,WARN
+fact_sales,Negative margin,608,WARN
+fact_sales,Margin above 80%,0,WARN
+fact_sales,Invalid cost price,0,ERROR
